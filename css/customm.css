@@ -1,0 +1,63 @@
+#recent-posts>.recent-post-item,.layout_page>div:first-child:not(.recent-posts),.layout_post>#page,.layout_post>#post,.read-mode .layout_post>#post {
+        /* background: var(--light_bg_color) */
+        background: rgba(255,255,255,.15)
+}
+    
+#aside-content .card-widget{
+        /* background: var(--light_bg_color) */
+        background: rgba(255,255,255,.15)
+    }
+
+    
+    /* #web_bg {
+        background: linear-gradient(90deg,rgba(247,149,51,.1),rgba(243,112,85,.1) 15%,rgba(239,78,123,.1) 30%,rgba(161,102,171,.1) 44%,rgba(80,115,184,.1) 58%,rgba(16,152,173,.1) 72%,rgba(7,179,155,.1) 86%,rgba(109,186,130,.1))
+    } */
+    #nav.show{
+        background: rgba(0, 0, 0, 0.05)
+    }
+    
+    .layout > div:first-child:not(.recent-posts)
+    {
+        background: var(--light_bg_color);
+    }
+    body{cursor: url(https://cdn.jsdelivr.net/gh/caibhh/CDN/img/blog/default.cur),default;}
+    
+    #footer {
+        background: rgba(255,255,255,.15);
+        color: #000;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        backdrop-filter: saturate(100%) blur(5px)
+    }
+    
+    #article-container img{
+        margin: 0;
+    }
+
+    #footer::before {
+        background: rgba(255,255,255,.15)
+    }
+    
+    #footer #footer-wrap {
+        color: var(--font-color)
+    }
+    
+    #footer #footer-wrap a {
+        color: var(--font-color)
+    }
+    /* #body-wrap{
+        background-image: url(https://cdn.jsdelivr.net/gh/zhaoze-jpg/Xianqi@main/imgg/16.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+      } */
+
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+        left: -66px !important;
+        /* 默认情况下缩进左侧66px，只留一点箭头部分 */
+      }
+      
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+        left: 0 !important;
+        /* 鼠标悬停是左侧缩进归零，完全显示按钮 */
+      }
